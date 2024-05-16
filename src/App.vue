@@ -18,6 +18,6 @@ body,
   height: 100%;
   margin: 0;
   padding: 0;
-  font-family: ARIAL,"Microsoft Yahei","微软雅黑";
+  font-family: ARIAL,"Microsoft Yahei","微软雅黑",serif;
 }
 </style>
