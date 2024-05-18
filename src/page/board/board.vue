@@ -7,7 +7,7 @@ export default {
 
 }
 </script>
-
+<!--看板组件-->
 <template>
   <div class="content">
     <div class="con_top">
