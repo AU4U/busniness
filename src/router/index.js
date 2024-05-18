@@ -1,9 +1,9 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import projectLIst from '@/components/project/projectLIst.vue'
-import customerLIst from '../../src/components/customer/customerLIst.vue'
-import board from '@/components/board/Board.vue'
-import progress from '@/components/progress/Progress.vue'
+import projectList from '@/page/project/project-list.vue'
+import customerList from '@/page/customer/customer-list.vue'
+import board from '@/page/board/board.vue'
+import progress from '@/page/progress/progress.vue'
 
 Vue.use(Router)
 
@@ -12,17 +12,17 @@ export default new Router({
     {
       path: '/',
       name: 'index',
-      component: projectLIst
+      component: projectList
     },
     {
       path: '/customerLIst',
       name: 'customerLIst',
-      component: customerLIst
+      component: customerList
     },
     {
       path: '/projectLIst',
       name: 'projectLIst',
-      component: projectLIst
+      component: projectList
     },
     {
       path: '/board',

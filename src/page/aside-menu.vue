@@ -31,24 +31,24 @@
 export default {
   methods: {
     enterCustomer () {
-      // if (this.$router.currentRoute.path !== '/customerLIst') {
-      this.$router.push({path: '/customerLIst'})
-      // }
+      if (this.$router.currentRoute.path !== '/customerLIst') {
+        this.$router.push({path: '/customerLIst'})
+      }
     },
     enterBoard () {
-      // if (this.$router.currentRoute.path !== '/board') {
-      this.$router.push({path: '/board'})
-      // }
+      if (this.$router.currentRoute.path !== '/board') {
+        this.$router.push({path: '/board'})
+      }
     },
     enterProject () {
-      // if (this.$router.currentRoute.path !== '/projectLIst') {
-      this.$router.push({path: '/projectLIst'})
-      // }
+      if (this.$router.currentRoute.path !== '/projectLIst') {
+        this.$router.push({path: '/projectLIst'})
+      }
     },
     enterProgress () {
-      // if (this.$router.currentRoute.path !== '/progress') {
-      this.$router.push({path: '/progress'})
-      // }
+      if (this.$router.currentRoute.path !== '/progress') {
+        this.$router.push({path: '/progress'})
+      }
     }
   }
 }

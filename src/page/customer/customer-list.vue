@@ -124,7 +124,7 @@
   </div>
 </template>
 <script>
-import {creatClients, getClients} from '../constants/api'
+import {creatClients, getClients} from '../../api'
 
 export default {
   data () {

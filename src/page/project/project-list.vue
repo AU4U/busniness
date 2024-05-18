@@ -87,7 +87,7 @@
   </div>
 </template>
 <script>
-import {creatProject, getProject, updateProject} from '../constants/api'
+import {creatProject, getProject, updateProject} from '@/api'
 
 export default {
   data () {
