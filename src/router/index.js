@@ -15,13 +15,13 @@ export default new Router({
       component: projectList
     },
     {
-      path: '/customerLIst',
-      name: 'customerLIst',
+      path: '/customerList',
+      name: 'customerList',
       component: customerList
     },
     {
-      path: '/projectLIst',
-      name: 'projectLIst',
+      path: '/projectList',
+      name: 'projectList',
       component: projectList
     },
     {

@@ -31,8 +31,8 @@
 export default {
   methods: {
     enterCustomer () {
-      if (this.$router.currentRoute.path !== '/customerLIst') {
-        this.$router.push({path: '/customerLIst'})
+      if (this.$router.currentRoute.path !== '/customerList') {
+        this.$router.push({path: '/customerList'})
       }
     },
     enterBoard () {
@@ -41,8 +41,8 @@ export default {
       }
     },
     enterProject () {
-      if (this.$router.currentRoute.path !== '/projectLIst') {
-        this.$router.push({path: '/projectLIst'})
+      if (this.$router.currentRoute.path !== '/projectList') {
+        this.$router.push({path: '/projectList'})
       }
     },
     enterProgress () {
